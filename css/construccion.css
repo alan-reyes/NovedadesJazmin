@@ -1,0 +1,21 @@
+.cons{
+    background-color:lightgrey;
+    border-radius:10px;
+    padding:30px 50px 50px 20px;
+    box-shadow:5px 3px 10px grey; 
+  }
+  
+  p{
+    font-family:'Exo 2', sans-serif;
+  }
+  svg{
+    position:relative;
+    animation: spin 4000ms infinite linear;  
+  }
+  @keyframes spin { 
+          from { 
+  transform: rotate(0deg); 
+          } to { 
+  transform: rotate(360deg); 
+          }
+      }
